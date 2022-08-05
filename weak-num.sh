@@ -1,4 +1,4 @@
-read -p "enter the week number" week-num
+read -p "enter the week number:" 
 echo "week number" $week-num
 case $week-num in
 1)echo "sunday"
